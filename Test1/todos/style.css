@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    margin-top: 4px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#button {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#login {
+    background-color: green;
+    color: white;
+}
+
+#signup {
+    background-color: dodgerblue;
+    color: white;
+}

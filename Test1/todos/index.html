@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <form id="user_detail" action="/process-form" method="post" onsubmit="validateform()">
+            <label for="email">Enter Your Email Address</label>
+            <input type="email" name="user_email" id="email">
+            <label for="password">Enter Your Password</label>
+            <input type="password" name="user_password" id="password">
+            <div id="button">
+                <button type="submit" id="login">login</button>
+                <button type="submit" id="Signup">Signup</button>
+            </div>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
